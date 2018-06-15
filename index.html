@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My City App</title>
+</head>
+
+<body>
+    <div class="container" id="container_1">
+
+        <!--  Hamburger Menu  -->
+        <section class="section_1">
+            <span class="open-slide">
+               <a href="#" onclick="openSlideMenu()">
+                   <svg width="30" height"30">
+                       <path d="M0,5 30,5" stroke="#A8D7EC"  stroke-width="5"/>
+                       <path d="M0,15 30,15" stroke="#A8D7EC"   stroke-width="5"/>
+                       <path d="M0,25 30,25" stroke="#A8D7EC" stroke-width="5"/>
+                   </svg>
+               </a>
+           </span>
+        </section>
+
+        <!--  Slide Menu  -->
+        <section>
+            <div id="slide-bar">
+                <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                <label for "exampleFriendInput">New Friends</label>
+                <input type="email" placeholder="Input Friends Name"></input>
+                <label for "exampleNewPubInput">New Favorite Pubs</label>
+                <input type="email" placeholder="Input Pubs Name"></input>
+                <label for "exampleNewDriversInput">New Drivers</label>
+                <input type="email" placeholder="Input Drivers Name & Phone #"></input><br>
+                <a href="#" class="button button-primary">Submit</a>
+            </div>
+        </section>
+
+        <!--  Icons  -->
+        <section class="section_2">
+            <div class="row">
+                <div class="two columns" id="sidebar-1">
+                    <a href="#"><i class="fa fa-youtube-square fa-3x"></i></a>
+                    <a href="#"><span class="fa-stack fa-2x">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a>
+                    <a href="#"><i class="fa fa-twitter fa-3x"></i></a>
+                    <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
+                </div>
+
+                <!--  Main Showcase  -->
+                <div class="six columns sub-section" id="showcase-1">
+                    <h1>Pub City App</h1>
+                    <h4>Socialize &middot Coordinate</h4>
+                </div>
+            </div>
+        </section>
+
+        <!--  Lower Logo -->
+        <section class="section_3">
+            <div id="article-1">
+                <h1>is my City.</h1>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Columns -->
+    <div class="container" id="container_2">
+        <section class="section_4">
+            <div class="row">
+                <div class="four columns">
+                    <h4>Mark Pubs</h4>
+                    <label for "examplePubInput">Favorite Pubs</label>
+                    <select class="u-full-width" id='examplePubInput'>
+                    <option value="Option 1">MacLeod Keep</option>
+                    <option value="Option 2">Miffy's Tavern</option>
+                    <option value="Option 3">Footballer's Jug </option>
+                    <option value="Option 4">Paul's Bar</option>
+                </select>
+                    <label for="exampleNewPub">Drop Waypoint</label>
+                    <a class="button button-primary" href="#">Submit</a>
+                </div>
+                <div class="four columns">
+                    <h4>Friends Near</h4>
+                    <label for "exampleFriendInput"></label>
+                    <select class="u-full-width" id='exampleFriendInput'>
+                    <option value="Option 1">Leppy</option>
+                    <option value="Option 2">Lacey</option>
+                    <option value="Option 3">Charles</option>
+                    <option value="Option 4">Robert</option>
+                    <option value="Option 4">Sue</option>
+                </select>
+                    <label for="exampleMessage">Message</label>
+                    <textarea class="u-full-width" placeholder="wheres the spot?" id="exampleMessage"></textarea>
+                    <a class="button button-primary" href="#">Submit</a>
+                </div>
+                <div class="four columns">
+                    <h4 class="dark-text">Drivers</h4>
+                    <label for "exampleRideInput" class="dark-text">Request Ride</label>
+                    <select class="u-full-width" id='exampleRideInput'>
+                    <option value="Option 1">Minicab</option>
+                    <option value="Option 2">Terry</option>
+                    <option value="Option 3">Frank</option>
+                    <option value="Option 4">Lyft</option>
+                    <option value="Option 4">Uber</option>
+                </select>
+                    <a class="button button-primary" href="#">Submit</a>
+                </div>
+            </div>
+        </section>
+        <br>
+        <p class="footer">Coded by Kyle Lynch &copy; 2018</p>
+    </div>
+</body>
+<script src="js/file-1.js"></script>
+
+</html>
