@@ -13,12 +13,9 @@ h4 {
 
 #container_1 {
     height: 100vh;
-<<<<<<< HEAD
     background: linear-gradient(gray, black),
-    linear-gradient(to left,#000 , #2727B3), url("../images/london.jpg")no-repeat;
-=======
+    linear-gradient(to left,#000 , #2727B3), url("images/london.jpg")no-repeat;
     background: linear-gradient(gray, black), linear-gradient(to left, #000, #2727B3), url("../images/london.jpg")no-repeat;
->>>>>>> 635b2730df5863a47f88bbae12243df1a29bbb04
     background-blend-mode: hard-light, lighten;
     background-position: 50%;
     background-size: cover;
