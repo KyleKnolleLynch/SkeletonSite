@@ -13,6 +13,7 @@ h4 {
 
 #container_1 {
     height: 100vh;
+    margin: auto;
     background: linear-gradient(gray, black),
     linear-gradient(to left,#000 , #2727B3), url("images/london.jpg")no-repeat;
     background: linear-gradient(gray, black), linear-gradient(to left, #000, #2727B3), url("../images/london.jpg")no-repeat;
